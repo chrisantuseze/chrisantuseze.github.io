@@ -9,7 +9,7 @@ function scrambledString(tag, objName, initScrambledString, initScrambledStringI
 	this.string = initScrambledString;
 	this.indices = initScrambledStringIndices;
 	this.rescramble = rescramble;
-	this.initAnimatedBubbleSort = initAnimatedBubbleSort;
+	this.initAnimatedBubbleSort = initAnimatedBubbleSort; 
 	this.bubbleSortStep = bubbleSortStep;
 	this.bubbleSortBookmark = 0;
 
