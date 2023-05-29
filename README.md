@@ -1,1 +1,1 @@
-This is the source code to Chrisantus Eze's public academic website: https://chrisantuseze.github.io/, which is a modified version of Job Barron's public academic website (https://jonbarron.info/). Feel free to clone this code for your own personal use.
+This is the source code to Chrisantus Eze's public academic website: https://chrisantuseze.github.io/, which is a modified version of Jon Barron's public academic website (https://jonbarron.info/). Feel free to clone this code for your own personal use.
