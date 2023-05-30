@@ -196,7 +196,7 @@
       <!-- <a shape="rect" href="javascript:togglebib('eccv22')" class="togglebib">bibtex</a> | -->
       <a href="https://arxiv.org/pdf/2303.05539.pdf">arXiv</a>
   
-      <p align="justify"> <i id="hri23_abs">As the use of Augmented Reality (AR) to enhance interactions between human agents and robotic systems in a work environment continues to grow, robots must communicate their intents in informative yet straightforward ways. This improves the human agent's feeling of trust and safety in the work environment while also reducing task completion time. To this end, we discuss a set of guidelines for the systematic design of AR interfaces for Human-Robot Interaction (HRI) systems. Furthermore, we develop design frameworks that would ride on these guidelines and serve as a base for researchers seeking to explore this direction further. We develop a series of designs for visually representing the robot's planned path and reactions, which we evaluate by conducting a user survey involving 14 participants. Subjects were given different design representations to review and rate based on their intuitiveness and informativeness. The collated results showed that our design representations significantly improved the participants' ease of understanding the robot's intents over the baselines for the robot's proposed navigation path, planned arm trajectory, and reactions.</i></p>
+      <p align="justify"> <i id="hri23_abs" style="display:none">As the use of Augmented Reality (AR) to enhance interactions between human agents and robotic systems in a work environment continues to grow, robots must communicate their intents in informative yet straightforward ways. This improves the human agent's feeling of trust and safety in the work environment while also reducing task completion time. To this end, we discuss a set of guidelines for the systematic design of AR interfaces for Human-Robot Interaction (HRI) systems. Furthermore, we develop design frameworks that would ride on these guidelines and serve as a base for researchers seeking to explore this direction further. We develop a series of designs for visually representing the robot's planned path and reactions, which we evaluate by conducting a user survey involving 14 participants. Subjects were given different design representations to review and rate based on their intuitiveness and informativeness. The collated results showed that our design representations significantly improved the participants' ease of understanding the robot's intents over the baselines for the robot's proposed navigation path, planned arm trajectory, and reactions.</i></p>
   
   <!-- <pre xml:space="preserve">
     @article{eze2023enhancing,
@@ -266,165 +266,19 @@
         x.style.display = "none";
       }
     }
+
+    function hideblock(id) {
+      var x = document.getElementById(id);
+      x.style.display = "none";
+    }
   </script>
+
+
   <script xml:space="preserve" language="JavaScript">
   hideallbibs();
   </script>
   <script xml:space="preserve" language="JavaScript">
-  hideblock('jpm15_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('fg15_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('wacv15_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('iclr15_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('cvpr15_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('iccv15_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('jmlr16_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('cvpr16_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('iclr16_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('cvpr17_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('icml17_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('nips17_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('iclr18_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('icml18_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('cvprw18_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('iclr19_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('assemblies19_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('sgm20_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('compgan18_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('icml19_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('phd19_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('neurips19_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('plan2explore_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('icml20_smp_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('uai20_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('neurips20_ndp_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('iclr21_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('worldsheet_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('flavr_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('icra21_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('ral21_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('keypoint3D_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('spt_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('hndp_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('rma_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('energyloco_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('lexa_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('raps_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('lff_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('envexplore_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('rtk_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('whirl_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('tars_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('clear_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('rb2_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('navloco_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('gptplanner_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('geometrydex_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('revolver_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('eccv22_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('clipICML22_abs');
-  </script>
-  <script xml:space="preserve" language="JavaScript">
-  hideblock('arma_abs');
+  hideblock('hri23_abs');
   </script>
   </body>
   
