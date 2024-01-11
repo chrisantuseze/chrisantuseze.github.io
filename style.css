@@ -207,6 +207,7 @@ h2 {
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   height: 12.5em;
+  margin-bottom: 5em;
 }
 
 .previews video {
@@ -220,17 +221,14 @@ h2 {
 .preview1 {
   grid-column: 1;
   width: 100%;
-  margin-top: 5em;
 }
 .preview2 {
   grid-column: 2;
   width: 100%;
-  margin-top: 5em;
 }
 .preview3 {
   grid-column: 3;
   width: 100%;
-  margin-top: 5em;
 }
 
 /**************************************************/
