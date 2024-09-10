@@ -54,7 +54,7 @@ table {
 }
 
 #main {
-  width: 64em;
+  width: 100em;
   margin: 0px auto;
   position: relative;
   min-height: 100vh;
