@@ -48,13 +48,13 @@ table {
 
 #body{
   font-family: 'Asap', roboto, sans-serif;
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.5em;
   color: #150c21;
 }
 
 #main {
-  width: 64em;
+  width: 54em;
   margin: 0px auto;
   position: relative;
   min-height: 100vh;
@@ -107,8 +107,7 @@ h1 {
 }
 
 #intro-image img {
-  width: 14em;
-  height: 12em;
+  width: 12em;
 }
 
 /**************************************************/
@@ -189,15 +188,9 @@ h2 {
 
 .list-item p.date {
   display: inline-block;
-  width: 5em;
-  color: #a0a8b0;
-}
-
-/* .list-item p.date {
-  display: inline-block;
   width: 3em;
   color: #a0a8b0;
-} */
+}
 
 /**************************************************/
 /* Gallery of 3 preview videos. */
@@ -208,7 +201,6 @@ h2 {
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   height: 12.5em;
-  margin-bottom: 2em;
 }
 
 .previews video {
@@ -221,13 +213,11 @@ h2 {
 
 .preview1 {
   grid-column: 1;
-  width: 82%;/*100%;*/
-  height: 90%;/*100%;*/
+  width: 100%;
 }
 .preview2 {
   grid-column: 2;
-  width: 82%;/*100%;*/
-  height: 90%;/*100%;*/
+  width: 100%;
 }
 .preview3 {
   grid-column: 3;
@@ -266,8 +256,8 @@ h2 {
 .thumbnail img {
   margin-top: 0.4em;
   border-radius: 5px;
-  width: 90%;/*100%;*/
-  height: 90%;/*100%;*/
+  width: 100%;
+  height: 100%;
 }
 
 .thumbnail video {
