@@ -188,7 +188,7 @@ h2 {
 
 .list-item p.date {
   display: inline-block;
-  width: 3em;
+  width: 5em;
   color: #a0a8b0;
 }
 
@@ -201,6 +201,7 @@ h2 {
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   height: 12.5em;
+  margin-bottom: 2em;
 }
 
 .previews video {
