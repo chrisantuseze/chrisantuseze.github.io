@@ -215,20 +215,20 @@ h2 {
 .preview1 {
   grid-column: 1;
   /* width: 100%; */
-  width: 60%;
-  height: 65%;
+  width: 70%;
+  height: 85%;
 }
 .preview2 {
   grid-column: 2;
   /* width: 100%; */
-  width: 60%;
-  height: 65%;
+  width: 70%;
+  height: 85%;
 }
 .preview3 {
   grid-column: 3;
   /* width: 100%; */
-  width: 60%;
-  height: 65%;
+  width: 70%;
+  height: 85%;
 }
 
 /**************************************************/
