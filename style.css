@@ -192,6 +192,12 @@ h2 {
   color: #a0a8b0;
 }
 
+.list-item a.preview {
+  width: 50%;
+  line-height: 1em;
+  margin-top: 1em;
+}
+
 /**************************************************/
 /* Gallery of 3 preview videos. */
 
