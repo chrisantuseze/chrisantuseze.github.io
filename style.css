@@ -207,8 +207,7 @@ h2 {
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   height: 12.5em;
-  /* height: 6.5em; */
-  margin-bottom: 2em;
+  margin-bottom: 20em;
 }
 
 .previews img {
