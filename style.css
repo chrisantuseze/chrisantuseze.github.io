@@ -193,7 +193,7 @@ h2 {
 }
 
 .list-item a.preview {
-  width: 70%;
+  width: 80%;
   line-height: 1em;
   margin-top: 1em;
 }
@@ -221,21 +221,21 @@ h2 {
 
 .preview1 {
   grid-column: 1;
-  /* width: 100%; */
-  width: 90%;/*100%;*/
-  height: 90%;/*100%;*/
+  width: 100%;
+  /* width: 90%;
+  height: 90%; */
 }
 .preview2 {
   grid-column: 2;
-  /* width: 100%; */
-  width: 90%;/*100%;*/
-  height: 90%;/*100%;*/
+  width: 100%;
+  /* width: 90%;
+  height: 90%; */
 }
 .preview3 {
   grid-column: 3;
-  /* width: 100%; */
-  width: 90%;/*100%;*/
-  height: 90%;/*100%;*/
+  width: 100%;
+  /* width: 90%;
+  height: 90%; */
 }
 
 /**************************************************/
