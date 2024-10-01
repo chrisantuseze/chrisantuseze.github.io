@@ -200,8 +200,10 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   /* gap: 10px; */
   gap: 2px;
-  grid-auto-rows: minmax(100px, auto);
-  height: 12.5em;
+  /* grid-auto-rows: minmax(100px, auto); */
+  grid-auto-rows: minmax(70px, auto);
+  /* height: 12.5em; */
+  height: 6.5em;
   margin-bottom: 2em;
 }
 
