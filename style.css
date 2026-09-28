@@ -162,6 +162,40 @@ i, em { font-style: italic; }
   margin-bottom: 12px;
 }
 
+/* Job market banner */
+.job-market-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #15803d;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  transition: all var(--transition);
+}
+
+.job-market-banner:hover {
+  color: #15803d;
+  border-color: #86efac;
+  background: #dcfce7;
+}
+
+.job-market-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22c55e;
+  flex-shrink: 0;
+}
+
+.job-market-cta {
+  font-weight: 600;
+}
+
 /* Expandable bio */
 #more-bio {
   display: none;
