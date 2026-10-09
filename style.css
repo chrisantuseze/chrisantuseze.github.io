@@ -371,7 +371,7 @@ i, em { font-style: italic; }
    ============================================================ */
 .preview-gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 14px;
   margin-bottom: 36px;
 }

@@ -28,7 +28,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Custom Style -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 
 <body>
@@ -88,7 +88,7 @@
             working on a <strong>JEPA-style world model with a learned critic</strong> for long-horizon robot
             planning, and exploring logic-augmented spatial reasoning via Answer Set Programming (ASP)
             to improve compositional reasoning in VLMs. I have published 7 peer-reviewed papers across
-            robotics and ML venues, with an additional paper currently under review at ICAART 2027. I am
+            robotics and ML venues, with an additional paper currently under review. I am
             actively on the academic and industry job market.
           </p>
         </div>
@@ -170,9 +170,13 @@
 
       <!-- Research Preview Gallery -->
       <div class="preview-gallery" aria-label="Research previews">
-        <a href="https://arxiv.org/pdf/2409.18418" target="_blank" class="preview-card">
-          <img src="images/a3.png" alt="A3 — Domain Adaptation paper" />
-          <div class="preview-label">A3 · Domain Adaptation</div>
+        <a href="https://verify2act.github.io" target="_blank" class="preview-card">
+          <img src="images/verify2act.gif" alt="Verify2Act running on a robot arm" />
+          <div class="preview-label">Verify2Act · World Models</div>
+        </a>
+        <a href="https://object-unveiler.github.io" target="_blank" class="preview-card">
+          <img src="images/unveiler.gif" alt="Unveiler retrieving covered blocks with a robot arm" />
+          <div class="preview-label">Unveiler · Manipulation in Clutter</div>
         </a>
         <a href="https://arxiv.org/pdf/2402.07127.pdf" target="_blank" class="preview-card">
           <img src="images/learning_by_watching.jpeg" alt="Learning By Watching paper" />
@@ -194,12 +198,11 @@
         <div class="news-item">
           <span class="news-date">Sep 2026</span>
           <span class="news-content">New paper, <strong>Beyond Self-Critique: Epistemic Convergence Control for
-              Multi-Agent Research Verification</strong>, submitted and under review at <strong><a
-                href="https://icaart.scitevents.org/Home.aspx" target="_blank">ICAART 2027</a></strong>.</span>
+              Multi-Agent Research Verification</strong>, submitted and under review.</span>
         </div>
         <div class="news-item">
           <span class="news-date">Sep 2026</span>
-          <span class="news-content"><strong>Unveiler</strong>, accepted at the <strong>IROS 2026 Workshop on
+          <span class="news-content"><strong><a href="pdf/Unveiler_IROS.pdf" target="_blank">Unveiler</a></strong>, accepted at the <strong>IROS 2026 Workshop on
               Compositional and Modular Learning in the Era of Scaling in Robotics</strong>.</span>
         </div>
         <div class="news-item">
@@ -300,24 +303,17 @@
 
         <!-- World Models paper -->
         <article class="pub-item">
-          <div class="pub-thumb" style="display:flex;align-items:center;justify-content:center;background:#f0fdf4;">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="1.5"
-              stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10" />
-              <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
-              <path d="M2 12h20" />
-            </svg>
+          <div class="pub-thumb">
+            <img src="images/verify2act_thumb.jpg" alt="Verify2Act paper thumbnail" />
           </div>
           <div class="pub-body">
             <p class="pub-title">Verify2Act: Critic-Guided Latent World Models for Verifying
               Language-Conditioned Manipulation Plans</p>
             <p class="pub-authors"><span class="me">Chrisantus Eze</span>, Christopher Crick</p>
-            <span class="pub-venue" style="background:#dcfce7;color:#15803d;">Coming Soon</span>
+            <span class="pub-venue" style="background:#fef3c7;color:#92400e;">Under Review</span>
             <div class="pub-links">
               <a class="pub-link" href="https://verify2act.github.io" target="_blank">Project Page</a>
             </div>
-            <p class="pub-authors" style="margin-top:4px;">Latent-space world model with a critic for multi-step
-              predictive planning in robot manipulation.</p>
           </div>
         </article>
 
@@ -336,28 +332,19 @@
               Verification</p>
             <p class="pub-authors"><span class="me">Chrisantus Eze</span></p>
             <span class="pub-venue" style="background:#fef3c7;color:#92400e;">Under Review</span>
-            <p class="pub-authors" style="margin-top:4px;">Convergence-control framework for multi-agent research
-              verification that goes beyond single-agent self-critique. Submitted to ICAART 2027.</p>
           </div>
         </article>
 
         <!-- Unveiler journal paper -->
         <article class="pub-item">
-          <div class="pub-thumb" style="display:flex;align-items:center;justify-content:center;background:#eef2ff;">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="1.5"
-              stroke-linecap="round" stroke-linejoin="round">
-              <path
-                d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18" />
-            </svg>
+          <div class="pub-thumb">
+            <img src="images/unveiler_thumb.jpg" alt="Unveiler journal paper thumbnail" />
           </div>
           <div class="pub-body">
             <p class="pub-title">Learning Object-Centric Spatial Reasoning for Sequential Manipulation in Cluttered
               Environments</p>
             <p class="pub-authors"><span class="me">Chrisantus Eze</span>, Ryan C. Julian, Christopher Crick</p>
             <span class="pub-venue" style="background:#fef3c7;color:#92400e;">Under Review</span>
-            <p class="pub-authors" style="margin-top:4px;">Journal version of Unveiler, with search-based policy
-              improvement and real-robot experiments. Submitted to the Journal of Intelligent &amp; Robotic
-              Systems.</p>
             <div class="pub-links">
               <a class="pub-link" href="https://object-unveiler.github.io" target="_blank">Project Page</a>
               <a class="pub-link" href="https://arxiv.org/abs/2603.02511" target="_blank">arXiv</a>
@@ -367,19 +354,15 @@
 
         <!-- Unveiler paper -->
         <article class="pub-item">
-          <div class="pub-thumb" style="display:flex;align-items:center;justify-content:center;background:#eef2ff;">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="1.5"
-              stroke-linecap="round" stroke-linejoin="round">
-              <path
-                d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18" />
-            </svg>
+          <div class="pub-thumb">
+            <img src="images/unveiler_iros_thumb.jpg" alt="Unveiler IROS workshop paper thumbnail" />
           </div>
           <div class="pub-body">
             <p class="pub-title">Unveiler: Modular Spatial Reasoning for Sequential Manipulation in Dense Clutter</p>
             <p class="pub-authors"><span class="me">Chrisantus Eze</span>, Ryan Julian, Christopher Crick</p>
             <span class="pub-venue">IROS 2026</span>
             <div class="pub-links">
-              <a class="pub-link" href="https://arxiv.org/pdf/2603.02511" target="_blank">PDF</a>
+              <a class="pub-link" href="pdf/Unveiler_IROS.pdf" target="_blank">PDF</a>
               <a class="pub-link"
                 href="https://openreview.net/forum?id=FXwZuwIwy2&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DIEEE.org%2FIROS%2F2026%2FWorkshop%2FCompRobotics%2FAuthors%23your-submissions)"
                 target="_blank">OpenReview</a>
